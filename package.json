@@ -5,7 +5,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testWatch": "jest --watchAll",
+    "testCoverage": "jest --coverage",
+    "testCoverageReport": "jest --coverage --coverageReporters=text"
   },
   "author": "",
   "license": "ISC",
